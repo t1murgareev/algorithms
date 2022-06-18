@@ -19,6 +19,10 @@ const findNumberByName = function (phoneBook, word) {
 
 let phoneBook = [
 
-    {}
+     { name: 'Alex Bowman', number: '48-2002' },
+
+    { name: 'Aric Almirola', number: '10-1001' },
+
+    { name: 'Bubba Wallace', number: '23-1111' },
 ]
-console.log(findNumberByName(phoneBook, 'Tom Holland'))
+console.log(findNumberByName(phoneBook, 'Alex Bowman'))
